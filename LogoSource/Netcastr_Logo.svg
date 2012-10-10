@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="512px"
+   height="512px"
+   viewBox="0 0 512 512"
+   enable-background="new 0 0 512 512"
+   xml:space="preserve"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="Netcastr_Logo.svg"><metadata
+   id="metadata3012"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs3010" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1855"
+   inkscape:window-height="1072"
+   id="namedview3008"
+   showgrid="false"
+   inkscape:zoom="1"
+   inkscape:cx="310.63397"
+   inkscape:cy="212.97257"
+   inkscape:window-x="65"
+   inkscape:window-y="24"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g2986"
+   showguides="true"
+   inkscape:guide-bbox="true"><inkscape:grid
+     type="xygrid"
+     id="grid3055" /></sodipodi:namedview>
+<g
+   id="g2986">
+	
+	<path
+   d="m 88.686,111.982 30.47,341.74 136.762,37.966 136.891,-37.948 30.507,-341.758 z m 277.99287,320.01033 -110.68278,30.687 c 0.1379,-34.60613 0.0545,-69.21219 0,-103.81836 -0.65978,-1.501 -40.80521,-92.68488 -47.62419,-108.07536 l 19.09976,149.70144 -57.27541,0 -19.20686,-218.64515 67.50288,0 37.50382,66.09924 0.33985,-108.01914 136.43454,0.0166 z"
+   id="path2998"
+   inkscape:connector-curvature="0"
+   style="fill:#231f20"
+   sodipodi:nodetypes="cccccccccccccccccc" />
+	<path
+   d="m 256,139.927 0,41.914 -0.004,66.10041 47.66241,83.81459 0.029,-149.9141 57.3125,0 -19.20203,218.64515 -67.47691,0 L 255.996,358.924 256,462.668 366.694,432.01225 392.78063,139.926 256,139.926 z"
+   id="path3000"
+   inkscape:connector-curvature="0"
+   style="opacity:0.8;fill:#231f20"
+   sodipodi:nodetypes="cccccccccccccc" />
+	<g
+   id="g3002"
+   transform="translate(-0.16819,9e-4)"
+   style="opacity:0.2">
+		<path
+   style="fill:#231f20"
+   d="m 170.35996,400.48615 57.26738,0 -19.06979,-149.63166 47.60673,107.96636 0,-110.88034 -37.55255,-66.09951 c -0.39583,0 -41.58892,0 -67.45415,0 z"
+   id="polygon3004"
+   inkscape:connector-curvature="0"
+   sodipodi:nodetypes="cccccccc" />
+		
+	</g>
+<text
+   xml:space="preserve"
+   style="font-size:64px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+   x="65.4375"
+   y="77.129333"
+   id="text3049"
+   sodipodi:linespacing="125%"><tspan
+     sodipodi:role="line"
+     id="tspan3051"
+     x="65.4375"
+     y="77.129333"
+     style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Symbol;-inkscape-font-specification:Symbol Bold">NETCASTR</tspan></text>
+</g>
+</svg>

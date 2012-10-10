@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    	<link rel="icon" href="favicon.ico" type="image/ico">
+
+		<title>Netcastr</title>
+
+		<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="./css/style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-fixed-top">
+				<div class="navbar-inner">
+			        <div class="container">
+		          		<a class="brand" data-toggle="modal" href="#modalAbout">Netcastr</a>
+			          	<ul class="nav">
+			            	<li class="divider-vertical"></li>
+			            	<li class="itemCount"><a href="#">0 Items</a></li>
+			            	<li class="divider-vertical"></li>
+			            	<li class="itemCount"><a href="#">0 New</a></li>
+			            	<li class="divider-vertical"></li>
+			            	<li class="itemCount"><a href="#">0 Viewed</a></li>
+			            	<li class="divider-vertical"></li>
+			          	</ul>
+			          	<ul class="nav pull-right">
+			            	<li><a href="#"><i class="icon-cog icon-white"></i></a></li>
+			            	<!--<li><a data-ember-action="8"><i class="icon-user icon-white"></i></a></li>-->
+			            	<li><a href="#"><i class="icon-refresh icon-white"></i></a></li>
+			          	</ul>
+			        </div>
+			      </div>
+			</nav>
+		</header>
+
+		<section class="mainContent">
+			<section class="controls">
+				<div class="tControls">
+					<div class="top">
+						<button class="btn" title="Mark all items as viewed">
+							<i class="icon-ok"></i>
+						</button>
+					</div>
+					<div class="middle">
+						<button class="btn" title="Goto previous feed">
+							<i class="icon-arrow-up"></i>
+						</button>
+						<button class="btn" title="Mark all feed items as viewed">
+							<i class="icon-ok-circle"></i>
+						</button>
+						<button class="btn" title="Goto next feed">
+							<i class="icon-arrow-down"></i>
+						</button>
+					</div>
+					<div class="bottom">
+						<button class="btn" title="Add a feed">
+							<i class="icon-plus"></i>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="feeds" data-bind="foreach: feeds">
+				<article class="well feed" data-bind="click: $root.selectFeed">
+					<img data-bind="attr: {src: imgSrc}"  alt="" />
+					<h3 data-bind="text: title"></h3>
+				</article>
+			</section>
+			<section class="items" data-bind="with: selectedFeed">
+				<section data-bind="foreach: items">
+					<article class="item well">
+						<div class="row-fluid">
+							<div class="span8" data-bind="text: pubDate"></div>
+							<div class="span4 actions">
+								<input type="checkbox" title="Toggle viewed" />
+								<a href="#" class="saveForOffline" title="Save for offline viewing">
+									<i class="icon-download"></i>
+								</a>
+								<a data-bind="attr: {href: mediaUrl}" href="" target="_blank" title="Download item">
+									<i class="icon-download-alt"></i>
+								</a>
+								<a data-bind="attr: {href: originUrl}" href="" target="_blank" title="Item origin">
+									<i class="icon-share"></i>
+								</a>
+							</div>
+						</div>
+						<h2 data-bind="text: title"></h2>
+						<span data-bind="text: author" class="author"></span>
+						<hr />
+						<video width="100%" controls>
+							<source data-bind="attr: {src: mediaUrl}" type="video/mp4" src="" />
+						</video>
+						<div data-bind="html: description" class="itemDescription">
+						</div>
+					</article>
+				</section>
+			</section>
+		</section>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/knockout/knockout-2.1.0.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/feeds.js"></script>
+	</body>
+</html>
